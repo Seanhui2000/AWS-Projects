@@ -1,4 +1,6 @@
 # AWS-Projects
 ### Overview
 
+Cloud computing refers to the delivery of computing services, including storage, processing power, databases, networking, analytics, and more, over the internet. Instead of owning and maintaining physical servers and infrastructure, users can access these resources on-demand from cloud service providers. It is my job to provide solutions is scalable, flexible, cost-effectiveness, and allows organizations to focus on their core business without the burden of managing hardware.
+
 In my GitHub Repository, I will demonstrate Cloud-based projects utilizing the latest techonologies that I have successfully implemented in the testing, development, and production environment and showcase my technical experience related with working with AWS products and services. By employing my passion, aptitude, and my broad skill set, I will be able to provide the most optimal solutions to any cloud-based problem as well as design the best cloud architecture in the market to be able to implement to numerous instances today. My projects will be documented with clarity and precision to further showcase my abilities and my understanding of AWS products and there will be exact steps to follow along.
