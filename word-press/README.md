@@ -21,7 +21,7 @@ Now for the first part of this project, I needed to establish a relation databas
 
 ![alt text](https://github.com/Seanhui2000/AWS-Projects/blob/main/word-press/Screenshots/Creation%20of%20MySQL%20Database.png) 
 
-Following this, I created an Elastic Beanstalk environment to automate the configuration. The environment will create an EC2, load balancer, ASG, and S3 as well as using CloudFormation which greatly expedites the process allowing for time and performance efficiency. The previous security groups were configured with this EBS to allow access to the MySQL database and the environment was created.
+Following this, I created an Elastic Beanstalk environment to automate the configuration. The environment will create an EC2, load balancer, ASG, and S3 as well as using CloudFormation which greatly expedites the process allowing for time and performance efficiency. For high availability, I set up an auto scaling group with our created environment and to support uploads across multiple instances, this projects uses an EFS. The previous security groups were configured with this EBS to allow access to the MySQL database and the environment was created.
 
 ![alt test](https://github.com/Seanhui2000/AWS-Projects/blob/main/word-press/Screenshots/EBS%20Creation.png)
 
@@ -29,5 +29,17 @@ To upload the WordPress application to our new environment, I simply zipped the 
 
 ![alt test](https://github.com/Seanhui2000/AWS-Projects/blob/main/word-press/Screenshots/sucessfully%20uploaded%20word%20press.png)
 
+From here, all that's left is the configuration for the WordPress website and the application is successfully deployed! 
 
+![alt test](https://github.com/Seanhui2000/AWS-Projects/blob/main/word-press/Screenshots/wordpress%20website%20success.png)
+
+------
+
+What I've learned from this project is how to use the available services such as EBS to quick start web applications and manage environments as well as configure services such as RDS to connect with each other. Along with this, I was able to learn how to efficiently use services to follow best policy such as making the environment highly available using auto scaling groups and enabling the database to be multi-AZ. This allows me to implement best practice at all times.
+
+-----
+
+**References**
+
+https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/php-hawordpress-tutorial.html#php-hawordpress-tutorial-database
 
