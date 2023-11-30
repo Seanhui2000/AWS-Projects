@@ -3,6 +3,12 @@
 In this project, I will show my step-by-step process of deploying a fully functioning WordPress Website that is hosted on Amazon EC2, connected with Amazon RDS database, and is publicly accessible over the internet. This projects uses the following services: RDS, EC2, VPC, EBS, ASG, Load Balancers, Security Groups, and CloudFormation.
 
 ------
+This is the design for the architecture I will use to create this project and was created using Draw.io.
+
+![alt text](https://github.com/Seanhui2000/AWS-Projects/blob/main/word-press/Screenshots/Word-Press-Architectures.PNG)
+
+
+------
 First and foremost, WordPress needs to be installed in the directory.  Using the terminal, we can achieve this easily by using the following commands:
 ```bash
 ~$curl https://wordpress.org/wordpress-6.2.tar.gz -o wordpress.tar.gz
