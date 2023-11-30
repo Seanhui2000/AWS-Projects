@@ -1,6 +1,6 @@
 ## Deploying a HA WordPress Website using AWS
 
-In this project, I will show my step-by-step process of deploying a fully functioning WordPress Website using the following services: RDS, EC2, VPC, EBS, ASG, Load Balancers, Security Groups, and CloudFormation.
+In this project, I will show my step-by-step process of deploying a fully functioning WordPress Website that is hosted on Amazon EC2, connected with Amazon RDS database, and is publicly accessible over the internet. This projects uses the following services: RDS, EC2, VPC, EBS, ASG, Load Balancers, Security Groups, and CloudFormation.
 
 ------
 First and foremost, WordPress needs to be installed in the directory.  Using the terminal, we can achieve this easily by using the following commands:
