@@ -1,0 +1,33 @@
+## Deploying a HA WordPress Website using AWS
+
+In this project, I will show my step-by-step process of deploying a fully functioning WordPress Website using the following services: RDS, EC2, VPC, EBS, ASG, Load Balancers, Security Groups, and CloudFormation.
+
+------
+First and foremost, WordPress needs to be installed in the directory.  Using the terminal, we can achieve this easily by using the following commands:
+```bash
+~$curl https://wordpress.org/wordpress-6.2.tar.gz -o wordpress.tar.gz
+
+~$ wget https://github.com/aws-samples/eb-php-wordpress/releases/download/v1.1/eb-php-wordpress-v1.zip
+
+~$ tar -xvf wordpress.tar.gz
+
+~$ mv wordpress wordpress-beanstalk
+
+~$ cd wordpress-beanstalk
+
+~/wordpress-beanstalk$ unzip ../eb-php-wordpress-v1.zip
+```
+Now for the first part of this project, I needed to establish a relation database and connect it. This was done using RDS and intializing it with MySQL. By enabling Multi-AZ deployment, I am able to make this database highly available and scalable. Security groups were intialized here to match the security groups used for the EBS later and allow inbound traffic.
+
+![alt text](https://github.com/Seanhui2000/AWS-Projects/blob/main/word-press/Screenshots/Creation%20of%20MySQL%20Database.png) 
+
+Following this, I created an Elastic Beanstalk environment to automate the configuration. The environment will create an EC2, load balancer, ASG, and S3 as well as using CloudFormation which greatly expedites the process allowing for time and performance efficiency. The previous security groups were configured with this EBS to allow access to the MySQL database and the environment was created.
+
+![alt test](https://github.com/Seanhui2000/AWS-Projects/blob/main/word-press/Screenshots/EBS%20Creation.png)
+
+To upload the WordPress application to our new environment, I simply zipped the WordPress folders and uploaded it to our configured EBS. 
+
+![alt test](https://github.com/Seanhui2000/AWS-Projects/blob/main/word-press/Screenshots/sucessfully%20uploaded%20word%20press.png)
+
+
+
