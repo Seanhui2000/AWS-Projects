@@ -1,0 +1,454 @@
+{
+    "version": "0",
+    "id": "0af1b8ba-d1be-ed3f-cde4-c8822cfe7240",
+    "detail-type": "Lambda Function Invocation Result - Success",
+    "source": "lambda",
+    "account": "355704785073",
+    "time": "2023-12-01T00:46:47Z",
+    "region": "us-east-1",
+    "resources": [
+        "arn:aws:events:us-east-1:355704785073:event-bus/Inventory",
+        "arn:aws:lambda:us-east-1:355704785073:function:InventoryFunction:$LATEST"
+    ],
+    "detail": {
+        "version": "1.0",
+        "timestamp": "2023-12-01T00:46:47.018Z",
+        "requestContext": {
+            "requestId": "9a4e0b35-1271-4fe3-8255-4a4720c39ab5",
+            "functionArn": "arn:aws:lambda:us-east-1:355704785073:function:InventoryFunction:$LATEST",
+            "condition": "Success",
+            "approximateInvokeCount": 1
+        },
+        "requestPayload": {
+            "version": "0",
+            "id": "bcda9711-0bf3-eec0-9a5d-2093d826b68b",
+            "detail-type": "Order Processed",
+            "source": "com.aws.orders",
+            "account": "355704785073",
+            "time": "2023-12-01T00:46:46Z",
+            "region": "us-east-1",
+            "resources": [
+                "arn:aws:states:us-east-1:355704785073:stateMachine:OrderProcessing",
+                "arn:aws:states:us-east-1:355704785073:execution:OrderProcessing:27fbf6c4-b97c-c4c7-080b-518e28d7a576_26081520-6319-eb97-a5ca-d94e96b2bf64"
+            ],
+            "detail": {
+                "OrderId": "new_id",
+                "OrderDetails": {
+                    "OrderId": "new_id",
+                    "OrderDetails": {
+                        "OrderId": "new_id",
+                        "OrderDetails": {
+                            "OrderId": "new_id",
+                            "OrderDetails": {
+                                "OrderId": "new_id",
+                                "OrderDetails": {
+                                    "OrderId": "new_id",
+                                    "OrderDetails": {
+                                        "OrderId": "new_id",
+                                        "OrderDetails": {
+                                            "OrderId": "new_id",
+                                            "OrderDetails": {
+                                                "OrderId": "new_id",
+                                                "OrderDetails": {
+                                                    "OrderId": "new_id",
+                                                    "OrderDetails": {
+                                                        "OrderId": "new_id",
+                                                        "OrderDetails": {
+                                                            "OrderId": "new_id",
+                                                            "OrderDetails": {
+                                                                "OrderId": "new_id",
+                                                                "OrderDetails": {
+                                                                    "OrderId": "new_id",
+                                                                    "OrderDetails": {
+                                                                        "OrderId": "new_id",
+                                                                        "OrderDetails": {
+                                                                            "OrderId": "new_id",
+                                                                            "OrderDetails": {
+                                                                                "OrderId": "new_id",
+                                                                                "OrderDetails": {
+                                                                                    "OrderId": "new_id",
+                                                                                    "OrderDetails": {
+                                                                                        "OrderId": "new_id",
+                                                                                        "OrderDetails": {
+                                                                                            "OrderId": "new_id",
+                                                                                            "OrderDetails": {
+                                                                                                "OrderId": "new_id",
+                                                                                                "OrderDetails": {
+                                                                                                    "OrderId": "new_id",
+                                                                                                    "OrderDetails": {
+                                                                                                        "OrderId": "new_id",
+                                                                                                        "OrderDetails": {
+                                                                                                            "OrderId": "new_id",
+                                                                                                            "OrderDetails": {
+                                                                                                                "OrderId": "new_id",
+                                                                                                                "OrderDetails": {
+                                                                                                                    "OrderId": "new_id",
+                                                                                                                    "OrderDetails": {
+                                                                                                                        "OrderId": "new_id",
+                                                                                                                        "OrderDetails": {
+                                                                                                                            "OrderId": "new_id",
+                                                                                                                            "OrderDetails": {
+                                                                                                                                "OrderId": "new_id",
+                                                                                                                                "OrderDetails": {
+                                                                                                                                    "OrderId": "new_id",
+                                                                                                                                    "OrderDetails": {
+                                                                                                                                        "OrderId": "new_id",
+                                                                                                                                        "OrderDetails": {
+                                                                                                                                            "OrderId": "new_id",
+                                                                                                                                            "OrderDetails": {
+                                                                                                                                                "OrderId": "new_id",
+                                                                                                                                                "OrderDetails": {
+                                                                                                                                                    "OrderId": "new_id",
+                                                                                                                                                    "OrderDetails": {
+                                                                                                                                                        "OrderId": "new_id",
+                                                                                                                                                        "OrderDetails": {
+                                                                                                                                                            "OrderId": "new_id",
+                                                                                                                                                            "OrderDetails": {
+                                                                                                                                                                "OrderId": "new_id",
+                                                                                                                                                                "OrderDetails": {
+                                                                                                                                                                    "OrderId": "new_id",
+                                                                                                                                                                    "OrderDetails": {
+                                                                                                                                                                        "OrderId": "new_id",
+                                                                                                                                                                        "OrderDetails": {
+                                                                                                                                                                            "OrderId": "new_id",
+                                                                                                                                                                            "OrderDetails": {
+                                                                                                                                                                                "OrderId": "new_id",
+                                                                                                                                                                                "OrderDetails": {
+                                                                                                                                                                                    "OrderId": "new_id",
+                                                                                                                                                                                    "OrderDetails": {
+                                                                                                                                                                                        "OrderId": "new_id",
+                                                                                                                                                                                        "OrderDetails": {
+                                                                                                                                                                                            "OrderId": "new_id",
+                                                                                                                                                                                            "OrderDetails": {
+                                                                                                                                                                                                "OrderId": "new_id",
+                                                                                                                                                                                                "OrderDetails": {
+                                                                                                                                                                                                    "OrderId": "new_id",
+                                                                                                                                                                                                    "OrderDetails": {
+                                                                                                                                                                                                        "OrderId": "new_id",
+                                                                                                                                                                                                        "OrderDetails": {
+                                                                                                                                                                                                            "OrderId": "new_id",
+                                                                                                                                                                                                            "OrderDetails": {
+                                                                                                                                                                                                                "OrderId": "new_id",
+                                                                                                                                                                                                                "OrderDetails": {
+                                                                                                                                                                                                                    "OrderId": "new_id",
+                                                                                                                                                                                                                    "OrderDetails": {
+                                                                                                                                                                                                                        "OrderId": "new_id",
+                                                                                                                                                                                                                        "OrderDetails": {
+                                                                                                                                                                                                                            "OrderId": "new_id",
+                                                                                                                                                                                                                            "OrderDetails": {
+                                                                                                                                                                                                                                "OrderId": "new_id",
+                                                                                                                                                                                                                                "OrderDetails": {
+                                                                                                                                                                                                                                    "OrderId": "new_id",
+                                                                                                                                                                                                                                    "OrderDetails": {
+                                                                                                                                                                                                                                        "OrderId": "new_id",
+                                                                                                                                                                                                                                        "OrderDetails": {
+                                                                                                                                                                                                                                            "OrderId": "new_id",
+                                                                                                                                                                                                                                            "OrderDetails": {
+                                                                                                                                                                                                                                                "OrderId": "new_id",
+                                                                                                                                                                                                                                                "OrderDetails": {
+                                                                                                                                                                                                                                                    "OrderId": "new_id",
+                                                                                                                                                                                                                                                    "OrderDetails": {
+                                                                                                                                                                                                                                                        "OrderId": "new_id",
+                                                                                                                                                                                                                                                        "OrderDetails": {
+                                                                                                                                                                                                                                                            "OrderId": "new_id",
+                                                                                                                                                                                                                                                            "OrderDetails": {
+                                                                                                                                                                                                                                                                "OrderId": "new_id",
+                                                                                                                                                                                                                                                                "OrderDetails": {
+                                                                                                                                                                                                                                                                    "OrderId": "new_id",
+                                                                                                                                                                                                                                                                    "OrderDetails": {
+                                                                                                                                                                                                                                                                        "OrderId": "new_id",
+                                                                                                                                                                                                                                                                        "OrderDetails": {
+                                                                                                                                                                                                                                                                            "OrderId": "new_id",
+                                                                                                                                                                                                                                                                            "OrderDetails": {
+                                                                                                                                                                                                                                                                                "OrderId": "new_id",
+                                                                                                                                                                                                                                                                                "OrderDetails": {
+                                                                                                                                                                                                                                                                                    "OrderId": "new_id",
+                                                                                                                                                                                                                                                                                    "OrderDetails": {
+                                                                                                                                                                                                                                                                                        "OrderId": "new_id",
+                                                                                                                                                                                                                                                                                        "OrderDetails": {
+                                                                                                                                                                                                                                                                                            "category": "office-supplies",
+                                                                                                                                                                                                                                                                                            "value": 1200,
+                                                                                                                                                                                                                                                                                            "location": "eu-west",
+                                                                                                                                                                                                                                                                                            "OrderDetails": "completed"
+                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                            }
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                }
+                                                                                                                                                                                            }
+                                                                                                                                                                                        }
+                                                                                                                                                                                    }
+                                                                                                                                                                                }
+                                                                                                                                                                            }
+                                                                                                                                                                        }
+                                                                                                                                                                    }
+                                                                                                                                                                }
+                                                                                                                                                            }
+                                                                                                                                                        }
+                                                                                                                                                    }
+                                                                                                                                                }
+                                                                                                                                            }
+                                                                                                                                        }
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "responseContext": {
+            "statusCode": 200,
+            "executedVersion": "$LATEST"
+        },
+        "responsePayload": {
+            "OrderId": "new_id",
+            "OrderDetails": {
+                "OrderId": "new_id",
+                "OrderDetails": {
+                    "OrderId": "new_id",
+                    "OrderDetails": {
+                        "OrderId": "new_id",
+                        "OrderDetails": {
+                            "OrderId": "new_id",
+                            "OrderDetails": {
+                                "OrderId": "new_id",
+                                "OrderDetails": {
+                                    "OrderId": "new_id",
+                                    "OrderDetails": {
+                                        "OrderId": "new_id",
+                                        "OrderDetails": {
+                                            "OrderId": "new_id",
+                                            "OrderDetails": {
+                                                "OrderId": "new_id",
+                                                "OrderDetails": {
+                                                    "OrderId": "new_id",
+                                                    "OrderDetails": {
+                                                        "OrderId": "new_id",
+                                                        "OrderDetails": {
+                                                            "OrderId": "new_id",
+                                                            "OrderDetails": {
+                                                                "OrderId": "new_id",
+                                                                "OrderDetails": {
+                                                                    "OrderId": "new_id",
+                                                                    "OrderDetails": {
+                                                                        "OrderId": "new_id",
+                                                                        "OrderDetails": {
+                                                                            "OrderId": "new_id",
+                                                                            "OrderDetails": {
+                                                                                "OrderId": "new_id",
+                                                                                "OrderDetails": {
+                                                                                    "OrderId": "new_id",
+                                                                                    "OrderDetails": {
+                                                                                        "OrderId": "new_id",
+                                                                                        "OrderDetails": {
+                                                                                            "OrderId": "new_id",
+                                                                                            "OrderDetails": {
+                                                                                                "OrderId": "new_id",
+                                                                                                "OrderDetails": {
+                                                                                                    "OrderId": "new_id",
+                                                                                                    "OrderDetails": {
+                                                                                                        "OrderId": "new_id",
+                                                                                                        "OrderDetails": {
+                                                                                                            "OrderId": "new_id",
+                                                                                                            "OrderDetails": {
+                                                                                                                "OrderId": "new_id",
+                                                                                                                "OrderDetails": {
+                                                                                                                    "OrderId": "new_id",
+                                                                                                                    "OrderDetails": {
+                                                                                                                        "OrderId": "new_id",
+                                                                                                                        "OrderDetails": {
+                                                                                                                            "OrderId": "new_id",
+                                                                                                                            "OrderDetails": {
+                                                                                                                                "OrderId": "new_id",
+                                                                                                                                "OrderDetails": {
+                                                                                                                                    "OrderId": "new_id",
+                                                                                                                                    "OrderDetails": {
+                                                                                                                                        "OrderId": "new_id",
+                                                                                                                                        "OrderDetails": {
+                                                                                                                                            "OrderId": "new_id",
+                                                                                                                                            "OrderDetails": {
+                                                                                                                                                "OrderId": "new_id",
+                                                                                                                                                "OrderDetails": {
+                                                                                                                                                    "OrderId": "new_id",
+                                                                                                                                                    "OrderDetails": {
+                                                                                                                                                        "OrderId": "new_id",
+                                                                                                                                                        "OrderDetails": {
+                                                                                                                                                            "OrderId": "new_id",
+                                                                                                                                                            "OrderDetails": {
+                                                                                                                                                                "OrderId": "new_id",
+                                                                                                                                                                "OrderDetails": {
+                                                                                                                                                                    "OrderId": "new_id",
+                                                                                                                                                                    "OrderDetails": {
+                                                                                                                                                                        "OrderId": "new_id",
+                                                                                                                                                                        "OrderDetails": {
+                                                                                                                                                                            "OrderId": "new_id",
+                                                                                                                                                                            "OrderDetails": {
+                                                                                                                                                                                "OrderId": "new_id",
+                                                                                                                                                                                "OrderDetails": {
+                                                                                                                                                                                    "OrderId": "new_id",
+                                                                                                                                                                                    "OrderDetails": {
+                                                                                                                                                                                        "OrderId": "new_id",
+                                                                                                                                                                                        "OrderDetails": {
+                                                                                                                                                                                            "OrderId": "new_id",
+                                                                                                                                                                                            "OrderDetails": {
+                                                                                                                                                                                                "OrderId": "new_id",
+                                                                                                                                                                                                "OrderDetails": {
+                                                                                                                                                                                                    "OrderId": "new_id",
+                                                                                                                                                                                                    "OrderDetails": {
+                                                                                                                                                                                                        "OrderId": "new_id",
+                                                                                                                                                                                                        "OrderDetails": {
+                                                                                                                                                                                                            "OrderId": "new_id",
+                                                                                                                                                                                                            "OrderDetails": {
+                                                                                                                                                                                                                "OrderId": "new_id",
+                                                                                                                                                                                                                "OrderDetails": {
+                                                                                                                                                                                                                    "OrderId": "new_id",
+                                                                                                                                                                                                                    "OrderDetails": {
+                                                                                                                                                                                                                        "OrderId": "new_id",
+                                                                                                                                                                                                                        "OrderDetails": {
+                                                                                                                                                                                                                            "OrderId": "new_id",
+                                                                                                                                                                                                                            "OrderDetails": {
+                                                                                                                                                                                                                                "OrderId": "new_id",
+                                                                                                                                                                                                                                "OrderDetails": {
+                                                                                                                                                                                                                                    "OrderId": "new_id",
+                                                                                                                                                                                                                                    "OrderDetails": {
+                                                                                                                                                                                                                                        "OrderId": "new_id",
+                                                                                                                                                                                                                                        "OrderDetails": {
+                                                                                                                                                                                                                                            "OrderId": "new_id",
+                                                                                                                                                                                                                                            "OrderDetails": {
+                                                                                                                                                                                                                                                "OrderId": "new_id",
+                                                                                                                                                                                                                                                "OrderDetails": {
+                                                                                                                                                                                                                                                    "OrderId": "new_id",
+                                                                                                                                                                                                                                                    "OrderDetails": {
+                                                                                                                                                                                                                                                        "OrderId": "new_id",
+                                                                                                                                                                                                                                                        "OrderDetails": {
+                                                                                                                                                                                                                                                            "OrderId": "new_id",
+                                                                                                                                                                                                                                                            "OrderDetails": {
+                                                                                                                                                                                                                                                                "OrderId": "new_id",
+                                                                                                                                                                                                                                                                "OrderDetails": {
+                                                                                                                                                                                                                                                                    "OrderId": "new_id",
+                                                                                                                                                                                                                                                                    "OrderDetails": {
+                                                                                                                                                                                                                                                                        "OrderId": "new_id",
+                                                                                                                                                                                                                                                                        "OrderDetails": {
+                                                                                                                                                                                                                                                                            "OrderId": "new_id",
+                                                                                                                                                                                                                                                                            "OrderDetails": {
+                                                                                                                                                                                                                                                                                "OrderId": "new_id",
+                                                                                                                                                                                                                                                                                "OrderDetails": {
+                                                                                                                                                                                                                                                                                    "OrderId": "new_id",
+                                                                                                                                                                                                                                                                                    "OrderDetails": {
+                                                                                                                                                                                                                                                                                        "category": "office-supplies",
+                                                                                                                                                                                                                                                                                        "value": 1200,
+                                                                                                                                                                                                                                                                                        "location": "eu-west",
+                                                                                                                                                                                                                                                                                        "OrderDetails": "completed"
+                                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                            }
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                }
+                                                                                                                                                                                            }
+                                                                                                                                                                                        }
+                                                                                                                                                                                    }
+                                                                                                                                                                                }
+                                                                                                                                                                            }
+                                                                                                                                                                        }
+                                                                                                                                                                    }
+                                                                                                                                                                }
+                                                                                                                                                            }
+                                                                                                                                                        }
+                                                                                                                                                    }
+                                                                                                                                                }
+                                                                                                                                            }
+                                                                                                                                        }
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
