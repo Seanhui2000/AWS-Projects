@@ -1,11 +1,13 @@
-## Building an event driven architecture in AWS
+![image](https://github.com/Seanhui2000/AWS-Projects/assets/127706776/947e7d6e-06da-472b-913f-0f1b064edcee)## Building an event driven architecture in AWS
 
 In this project, I will be designing and building an event driven architecture in AWS that waits for a function to be invoked and once fired, 
 Lambda destinations will be asynchronously configured to send an event, or in this case execution record, that contains details about the request and response. 
 This architecture will be utilizing AWS EventBridge, Step Functions, SNS, and AWS Lambda.
 
 ------
-
+T
+This will be the event driven architecture design for this project provided from the workshop reference.
+![alt text]()
 To start, I need to set up an event bus that will take a notification event, in this case an "order", and write it to CloudWatch to log all events that occured. This was done by using AWS EventBridge to create an event bus, set rules to configure the source, and set the target to a CloudWatch group log. Once the setup is complete, I could test it with a test event in EventBridge using the following example JSON. 
 
 ```JSON
