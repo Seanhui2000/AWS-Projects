@@ -3,15 +3,15 @@
 
 In this project, I will be architecting and building a fully functioning End-to-End AWS Web Application that follows the following steps:
 
-1. AWS Amplify hosts the website and communicates to the client user
+1. **AWS Amplify** hosts the website and communicates to the client user
    
-2. API Gateway will send information from Amplify to AWS Lambda
+2. **API Gateway** will send information from Amplify to AWS Lambda
    
-3. AWS Lambda to process the user-based information
+3. **AWS Lambda** to process the user-based information
    
 4. AWS Lambda will send the processed data to a NoSQL database (DynamoDB)
    
-5. DynamoDB receives the data and stores the data for the client user.
+5.** DynamoDB** receives the data and stores the data for the client user.
 
 AWS Lambda will be configured with the apprioriate IAM role to be able to access tbe DynamoDB table for security purposes while using least privilege policies.
 
@@ -33,5 +33,29 @@ A test event with a base of 2 and an exponent of 3 was ran to confirm completion
 ![alt text](https://github.com/Seanhui2000/AWS-Projects/blob/main/web-app/Screenshots/TestingLambdaResults.png)
 
 To invoke the Lambda function, it need to be connected to our web application from AWS Amplify as the trigger. This was done by using AWS API Gateway and creating a REST API. 
-The REST API will wait for a request from Amplify to take user-inputted parameters
+The REST API will wait for a request from Amplify to take user-inputted parameters and once the request is received, it will invoke a response from Lambda to take the data and process it.
+
+![alt text](https://github.com/Seanhui2000/AWS-Projects/blob/main/web-app/Screenshots/deploying-API.png)
+
+AWS Amplify also needs to connect to AWS API Gateway. This connection is done by directly invoking the REST API in my index.html.
+
+With this complete and the lambda function as the target, I created another test event through AWS Amplify and Lambda responded with the correctedly calculated values, indicating the successful connection between Amplify and Lambda.
+
+From here, in order for AWS Lambda to commit the process data to a DynamoDB table, it needs to be set with a role that has read/write priliveges. 
+By initializing using AWS IAM, I configured a role for the Lambda Function that has incorporates least priliveges policy for security. 
+
+![alt text](https://github.com/Seanhui2000/AWS-Projects/blob/main/web-app/Screenshots/IAMPolicyCreation.png)
+
+With the permissions set for the execution role for Lambda,  I created a DynamoDB table that will hold the processed values and the LambdaFunction is able to read/write to it.
+
+![alt text](https://github.com/Seanhui2000/AWS-Projects/blob/main/web-app/Screenshots/web-app-launched.png)
+
+The results of 2^8 shown here: 
+
+![alt text](https://github.com/Seanhui2000/AWS-Projects/blob/main/web-app/Screenshots/value-saved-dynamo.png)
+
+With that set up, the End-to-End web application is officially built, and completely connected, incorporating over five individual AWS products. The web application is able to take user input, invoke a Lambda function to calculate the data, and store the value in a DynamoDB table! 
+
+-----
+
 
