@@ -58,4 +58,14 @@ With that set up, the End-to-End web application is officially built, and comple
 
 -----
 
+What I loved most about this project is that it allow for an immense amount of freedom to be able to wield these services and produce infinite possible solutions. It allowed me to implement crucial elements to other real-world scenarios such as:
 
+1. Implementing continuous CI/CD and Devops by setting up automated deployment pipelines, version control, and monitoring solutions.
+2. Allowed for scalability and performance testing and understanding how the application performs under different loads and for implementing optimizations to ensure optimal user experience.
+3. Configuring security implementations at various levels, including network security, data encryption, access controls, and compliance with best security practices.
+4. Integrating AWS Services, allowing for a cohesive and scalable architecture
+
+-----
+**References**
+
+https://www.youtube.com/watch?v=7m_q1ldzw0U&t=67s
