@@ -3,6 +3,8 @@
 
 In this project, I will be architecting and building a fully functioning End-to-End AWS Web Application that follows the following steps:
 
+![alt text](https://github.com/Seanhui2000/AWS-Projects/blob/main/web-app/Screenshots/web%20architecture.PNG)
+
 1. **AWS Amplify** hosts the website and communicates to the client user
    
 2. **API Gateway** will send information from Amplify to AWS Lambda
