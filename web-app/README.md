@@ -10,8 +10,8 @@ In this project, I will be architecting and building a fully functioning End-to-
 3. **AWS Lambda** to process the user-based information
    
 4. AWS Lambda will send the processed data to a NoSQL database (DynamoDB)
-   
-5.** DynamoDB** receives the data and stores the data for the client user.
+ 
+5. **DynamoDB** receives the data and stores the data for the client user.
 
 AWS Lambda will be configured with the apprioriate IAM role to be able to access tbe DynamoDB table for security purposes while using least privilege policies.
 
